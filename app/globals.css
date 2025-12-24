@@ -112,10 +112,12 @@
   .home-buttons {
     flex-direction: column;
     width: 100%;
+    text-align: center;
   }
 
   .home-buttons button {
     width: 100%;
+
   }
 }
 @media (min-width: 481px) and (max-width: 640px) {
@@ -129,12 +131,12 @@
 
   .home-buttons {
     flex-direction: column;
-    align-items: center;
+   
   }
 
   .home-buttons button {
     width: 80%;
-    align-items: center;
+  
   }
 }
 @media (min-width: 641px) and (max-width: 768px) {
