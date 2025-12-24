@@ -1397,6 +1397,17 @@
     text-align: center;
   }
 }
+@media (max-width: 480px) {
+  .auth-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .auth-buttons button {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 
 
