@@ -110,16 +110,19 @@
   }
 
   .home-buttons {
+    display: flex;
     flex-direction: column;
+    align-items: center;   /* 👈 CENTER horizontally */
+    justify-content: center;
     width: 100%;
-    text-align: center;
   }
 
   .home-buttons button {
-    width: 100%;
-
+    width: 90%;           
+    max-width: 300px;     
   }
 }
+
 @media (min-width: 481px) and (max-width: 640px) {
   .home-title {
     font-size: 2.6rem;
