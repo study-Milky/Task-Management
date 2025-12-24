@@ -92,6 +92,7 @@
   .home-buttons {
     width: 100%;
     gap: 12px;
+    
   }
 
   .home-buttons button {
@@ -142,9 +143,10 @@
   .home-subtitle {
     font-size: 1.2rem;
   }
-
-  .home-buttons {
-    gap: 18px;
+   .home-buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
