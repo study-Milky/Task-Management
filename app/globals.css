@@ -129,6 +129,7 @@
 
   .home-buttons {
     flex-direction: column;
+    align-items: center;
   }
 
   .home-buttons button {
