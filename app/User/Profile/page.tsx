@@ -83,6 +83,14 @@ export default function ProfilePage() {
         >
           Logout
         </button>
+        <div className="header-actions">
+    <button
+      className="dashboard-btn"
+      onClick={() => router.push("/User/Dashboard")}
+    >
+      ← Dashboard
+    </button>
+    </div>
       </div>
     </div>
   );
