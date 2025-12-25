@@ -9,7 +9,7 @@ export default function Home() {
       </p>
 
       <div className="home-buttons">
-        <Link href="/User/Login">
+        <Link href="/User/Register">
           <button className="login-btn">Login</button>
         </Link>
 
